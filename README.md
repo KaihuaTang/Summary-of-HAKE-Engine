@@ -14,4 +14,12 @@ HAKE引擎相关论文代码整理
 本文档主要用于指导上述论文中所提供模型的部署和测试。
 
 ## PaStaNet(HAKE)模型部署
+论文链接：[PaStaNet](https://arxiv.org/abs/2004.00945), [HAKE2.0(期刊拓展)](https://arxiv.org/abs/2202.06851)
+
+代码链接：[HAKE-Action(pytorch)](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec), [HAKE-Action(tensorflow)](https://github.com/DirtyHarryLYL/HAKE-Action)
+
+数据集链接：[HAKE数据集](https://github.com/DirtyHarryLYL/HAKE), [HAKE2.0数据集拓展(额外AVA数据)](https://github.com/DirtyHarryLYL/HAKE-AVA)
+
+
+
 
