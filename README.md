@@ -10,8 +10,8 @@ HAKE引擎相关论文代码整理
 
 
 ## 目录
-2. [1.PaStaNet(HAKE)模型部署](#HAKE.md)
-3. [2.TIN模型部署](#)
+2. [1.PaStaNet(HAKE)模型部署](HAKE.md)
+3. [2.TIN模型部署](TIN.md)
 4. [3.2D-3D Matching模型部署](#)
 
 
