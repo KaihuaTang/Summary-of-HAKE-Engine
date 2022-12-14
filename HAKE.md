@@ -20,6 +20,11 @@
 
 基于身体部位的行为特征也可用于预测整体的人的行为。
 
+HAKE数据集的格式主要是将传统的HOI人物中的Human-action-object标注格式进行细粒度标注，划分为最多10个BodyPart-action-object（总计76 HAKE1.0 或93 HAKE2.0 种BodyPart-action-object组合）。注意！BodyPart并不提供额外bounding box标注，而是通过pose estimation估算出对应body part框位置。
+
+下图为Activity2Vec特征提取框架。经过Faster RCNN提取人的检测框，又由Pose Estimation估算出body part检测框后，通过如下模块提取body part的行为特征是HAKE引擎的主要贡献。
+![alt text](figure/fig1.jpg)
+
 ### 环境配置：
 测试环境： Python 3.7,  CUDA 10.0, Anaconda 3
  
